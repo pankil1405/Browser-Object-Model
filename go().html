@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history go()</title>
+</head>
+<body>
+    <input type="button" value="Go To Previous 2 Page" onclick="goTo()">
+    <input type="button" value="Go To Next 2 Page" onclick="goTo2()">
+    <script>
+
+        function goTo(){
+            history.go(-2);
+            
+        }
+
+        function goTo2(){
+            history.go(2);
+            
+        }
+
+    </script>
+    
+</body>
+</html>
